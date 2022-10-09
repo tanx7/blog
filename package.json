@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash scripts/deploy-gh.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanx7/blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "tanyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanx7/blog/issues"
+  },
+  "homepage": "https://github.com/tanx7/blog#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.51"
+  }
+}
