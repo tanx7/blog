@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd src/.vuepress/dist
 
 # 如果是发布到自定义域名
 echo 'blog.tanyi.vip' > CNAME
@@ -18,4 +18,4 @@ git commit -m 'deploy'
 
 git push -f git@github.com:tanx7/blog.git main:gh-pages
 
-cd -
+rm -rf ../dist
